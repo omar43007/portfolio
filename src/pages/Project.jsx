@@ -75,7 +75,7 @@ Tech: HTML, CSS, JavaScript + GitHub Pages hosting ,php ,DB:MySQL`,
         {stories.map((story, idx) => (
           <div
             key={idx}
-            className="bg-gradient-to-b from-violet-500 to-violet-700 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 overflow-hidden flex flex-col"
+            className="bg-linear-to-b from-violet-500 to-violet-700 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 overflow-hidden flex flex-col"
           >
             {/* صورة المشروع */}
             <div className="h-40 w-full overflow-hidden bg-gray-700">
